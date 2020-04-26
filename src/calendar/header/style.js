@@ -26,7 +26,9 @@ export default function(theme={}) {
       ...appStyle.arrowStyle
     },
     arrowImage: {
-      tintColor: appStyle.arrowColor
+      tintColor: appStyle.arrowColor,
+      width: 20,
+      height: 20,
     },
     disabledArrowImage: {
       tintColor: appStyle.disabledArrowColor
